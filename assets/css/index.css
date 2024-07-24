@@ -1,15 +1,42 @@
 * {
   margin: 0px;
   padding: 0px;
+  text-decoration: none;
 }
 .container {
   display: flex;
   width: 80%;
-  padding: 100hv;
+  min-height: 100hv;
+  margin: auto;
   justify-content: center;
 }
 .header-blog {
-  width: 100%;
   display: flex;
+  width: 100%;
+  height: 69px;
+  background-color: white;
+  justify-content: center;
   justify-content: space-between;
+  align-items: center;
+}
+.blog1 a {
+  font-family: sans-serif;
+  color: black;
+}
+
+.blog2 a {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  color: black;
+  font-size: 40px;
+}
+.blog3 .a2 {
+  display: inline-block;
+  padding: 5px;
+  font-family: sans-serif;
+  color: black;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.blog3 .a1 {
+  color: black;
 }
