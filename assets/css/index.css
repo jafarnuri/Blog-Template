@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  width: 80%;
+  padding: 100hv;
+  justify-content: center;
+}
+.header-blog {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
