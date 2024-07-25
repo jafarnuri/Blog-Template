@@ -192,14 +192,13 @@ footer p a {
 footer p {
   padding-top: 40px;
 }
-aside {
+.aside {
   width: 350px;
-  min-height: 100hv;
   position: sticky;
   top: 126px;
-  z-index: 1px;
+  z-index: 0px;
 }
-.aside {
+.aside-text {
   width: 350px;
   height: 165px;
   font-size: 20px;
@@ -220,4 +219,5 @@ li a {
   padding: 0px;
   position: sticky;
   top: 0px;
+  z-index: 100px;
 }
